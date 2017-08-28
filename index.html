@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<title>Dinner And A Show</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Monoton|Open+Sans|Zilla+Slab+Highlight" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+<body>
+
+<main>
+	<div class="wrapper">
+		<div class="restaurants center restFlex">
+			<aside>
+			<div class="input">			
+				<h1>Dinner And A Show</h1>
+				<form action="">
+					<input type="text" id="input" name="search" autocomplete="off">
+					<button type="submit" class="search">Search</button>
+				</form>
+			</div>
+				<article class="concertInfo">
+					<h2 class="eventName"></h2>
+					<p class="venue"></p>
+					<p class="city"></p>
+					<p class="date"></p>
+					<p class="time"></p>	
+				</article>
+				<div class="restList"></div>
+			</aside>
+			<div class="mapArea">
+				<div id="map"></div>	
+					<div class="overlay">
+						<div>
+							<h1>Going To A Concert?
+							<br>Need Something To Eat First?</h1>
+							<h2>We've Got You Covered!</h2>
+							<p>Search the name of the artist and the city they're playing in and we'll list the closest ten restaurants to the venue!</p>
+						</div>
+					</div>	
+			</div>
+		</div>
+	</div>
+</main>
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmV0nu5MNELvqr2JloO0Xi54cnKeZ8QvE&callback=initMap">
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="scripts/scripts.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+</html>
+
+<!-- credit to:
+
+Photo by Daniel Robert on Unsplash
+
+fork and knife icon provided by: [http://www.freepik.com] from www.flaticon.com
+
+music icon provided by [https://www.flaticon.com/authors/madebyoliver] from www.flaticon.com  -->
+
+
